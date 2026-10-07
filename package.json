@@ -1,0 +1,17 @@
+{
+  "name": "http-multipart-boundary",
+  "version": "0.1.0",
+  "description": "Generates boundary strings that are guaranteed not to appear in a given body payload.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {}
+}
